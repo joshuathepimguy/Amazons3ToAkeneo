@@ -1,5 +1,5 @@
 # awss3togrowthedition
-Automatically sync images and files from an S3 bucket. Both the SKU and attribute are detected via file naming convention.
+Automatically sync images and files from an S3 bucket into an Akeneo PIM. Both the SKU and attribute are detected via file naming convention.
 
 ### Note: This free and open-source POC is not supported. Please work with your system integrator to ensure proper implementation.
 
