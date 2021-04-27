@@ -30,5 +30,7 @@ If needed, this can be extended to EE while utilizing the more powerful, enterpr
 + Change 'use \Akeneo\Pim\ApiClient\AkeneoPimClientBuilder;' to 'use \Akeneo\Pim\ApiClient\AkeneoPimEnterpriseClientBuilder;' (Line 7.)
 + CHANGE '$clientBuilder = new AkeneoPimClientBuilder($__ENV['API_URL']);' to '$clientBuilder = new AkeneoPimEnterpriseClientBuilder($__ENV['API_URL']);' (Line 29.)
 
+## Video of this applicatio in action.
+
 [![IMAGE ALT TEXT](https://i.imgur.com/kou8f56.png)](https://www.loom.com/share/500a9ade6ad64d0599a13b10a5678041 "Automatically Sync from S3 Bucket into Akeneo Growth Edition")
 
