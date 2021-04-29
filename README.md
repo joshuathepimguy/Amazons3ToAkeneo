@@ -26,7 +26,7 @@ So, given two assets with the following names will sync as such:
 Execute the script by running `php amazonakeneo.php` from your bash terminal. This process can be put on an automated schedule.
 
 ## Notes
-If needed, this can be extended to EE while utilizing the more powerful, enterprise grade Assets Manager or as standars image and file attribute as seen here. To use this on EE, you would just need to change the amazonakeneo.php file as follows:
+If needed, this can be extended to EE while utilizing the more powerful, enterprise grade Assets Manager or as standard image and file attribute as seen here. To use this on EE, you would just need to change the amazonakeneo.php file as follows:
 + Change 'use \Akeneo\Pim\ApiClient\AkeneoPimClientBuilder;' to 'use \Akeneo\Pim\ApiClient\AkeneoPimEnterpriseClientBuilder;' (Line 7.)
 + CHANGE '$clientBuilder = new AkeneoPimClientBuilder($__ENV['API_URL']);' to '$clientBuilder = new AkeneoPimEnterpriseClientBuilder($__ENV['API_URL']);' (Line 29.)
 
