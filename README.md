@@ -35,4 +35,5 @@ If needed, this can be extended to EE while utilizing the more powerful, enterpr
 + CHANGE '$clientBuilder = new AkeneoPimClientBuilder($__ENV['API_URL']);' to '$clientBuilder = new AkeneoPimEnterpriseClientBuilder($__ENV['API_URL']);' (Line 29.)
 
 ## To-do
-Currently this is a limited POC and only supports simple products and product level image and file attributes in variant products. In the future, support for product model level attributes may be added. 
++ Currently this is a limited POC and only supports simple products and product level image and file attributes in variant products. In the future, support for product model level attributes may be added.
++ Passing back in the Amazon S3 URL of the image to enable serving assets from Amazon S3 downstream.
