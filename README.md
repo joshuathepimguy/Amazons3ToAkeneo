@@ -14,8 +14,12 @@ The application checks an Amazon S3 bucket for any files that have not been sync
 
 The default naming convention is productid--attribute_name-anything_else.jpg/png/gif/pdf
 So, given two assets with the following names will sync as such:
-+ 123456--productimage-ecomm.jpg  -> Product 123456 in the productimage attribute.
-+ 098765--manual-en_US.pdf        -> Product 098765 in the manual attribute.
++ 123456--productimage-ecomm.jpg  -> Product with SKU of 123456 into the productimage attribute.
++ 098765--manual-en_US.pdf        -> Product with SKU of 098765 into the manual attribute.
+
+Diagram:
+
+<img src="https://github.com/joshuathepimguy/Amazons3ToAkeneo/blob/main/namingconvention.png" width="50%">
 
 ## Setting it up
  1. Supply your PIM credentials in the .env file.
